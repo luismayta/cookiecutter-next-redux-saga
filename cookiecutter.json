@@ -1,0 +1,26 @@
+{
+  "author_email": "slovacus@gmail.com",
+  "author_name": "Luis Mayta",
+  "author_github": "https://github.com/luismayta",
+  "aws_vault": "equipindustry",
+  "node_version": "12.13.0",
+  "project_description": "Project for next react redux",
+  "project_port": "3000",
+  "python_version": "3.8.0",
+  "release_date": "2020-01-02",
+  "repository_domain": "https://github.com",
+  "repository_name": "next-react-redux",
+  "repository_owner": "equipindustry",
+  "repository": ["github", "bitbucket", "gitlab"],
+  "use_docker": "true",
+  "version": "0.0.0",
+  "year": "2020",
+  "open_source_license": [
+    "MIT license",
+    "BSD license",
+    "ISC license",
+    "Apache Software License 2.0",
+    "GNU General Public License v3",
+    "Not open source"
+  ]
+}
