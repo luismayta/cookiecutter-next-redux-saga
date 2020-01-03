@@ -1,7 +1,7 @@
 cookiecutter-next-redux-saga
 ============================
 
-Cookiecutter Next Redux Saga
+|Build Status| |GitHub issues| |GitHub license|
 
 :Version: 0.0.0
 :Web: https://github.com/equipindustry/cookiecutter-next-redux-saga
@@ -12,74 +12,75 @@ Cookiecutter Next Redux Saga
 .. contents:: Table of Contents:
     :local:
 
+Features
+--------
 
-License
--------
+* Task
 
-The code in this repository is licensed under the GPL unless
-otherwise noted.
+Dependencies
+------------
 
-Please see LICENSE_ for details.
+List of applications:
 
-How To Contribute
------------------
-
-Contributions are very welcome.
-
-Please read `How To Contribute` CONTRIBUTING_ for details.
-
-Issue report template should be automatically applied if you are sending it from bitbucket UI as well; otherwise you
-can find it at `ISSUE_TEMPLATE.md <https://github.com/equipindustry/cookiecutter-next-redux-saga/blob/master/.jira/issue_templates/ISSUE_TEMPLATE.md>`_
-
-Reporting Security Issues
--------------------------
-
-Please do not report security issues in public. Please email security@luismayta.com.
+- `Pyenv`_
+- `Docker`_
+- `Cookiecutter`_
 
 Requirements
 ------------
 
-This is a list of applications that need to be installed previously to
-enjoy all the goodies of this configuration:
+Install `Cookiecutter`_ command line:
 
-- `Pyenv`_
-- `Docker`_
+Pip users
+^^^^^^^^^
+
+.. code-block:: bash
+
+    pip install cookiecutter
+
+Homebrew users
+^^^^^^^^^^^^^^
+
+.. code-block:: bash
+
+    brew install cookiecutter
+
+Windows or Pipenv users
+^^^^^^^^^^^^^^^^^^^^^^^
+
+.. code-block:: bash
+
+    pipenv install cookiecutter
 
 
 Quickstart
 ----------
 
-Project Start
-^^^^^^^^^^^^^
+Generate a Cookiecutter Next Redux Saga project::
 
-.. code:: bash
+    cookiecutter gh:equipindustry/cookiecutter-next-redux-saga
 
-    $ make environment
-    $ make setup
-    $ make yarn.install
+Support
+-------
 
-Start Application
-^^^^^^^^^^^^^^^^^
+If you want to support this project, i only accept ``IOTA`` :p.
 
-.. code:: bash
+.. code-block:: bash
 
-    $ make yarn.start
+    Address: FTDCZELEMOQGL9MBWFZENJLFIZUBGMXLFVPRB9HTWYDYPTFKASJCEGJMSAXUWDQC9SJUDMZVIQKACQEEYPEUYLAMMD
 
-Troubleshooting
----------------
 
-Wrong pre-commit with pyenv
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Team
+----
 
-Execute the next:
-
-.. code:: bash
-
-    pyenv shell 3.8.0
-
++---------------+
+| |Luis Mayta|  |
++---------------+
+| `Luis Mayta`_ |
++---------------+
 
 License
-=======
+-------
 
 MIT
 
@@ -90,39 +91,79 @@ Please see `CHANGELOG`_ for more information what
 has changed recently.
 
 Contributing
-============
+------------
 
-Please see `CONTRIBUTING`_ for details.
+Contributions are welcome!
 
+Review the `CONTRIBUTING`_ for details on how to:
+
+* Submit issues
+* Submit pull requests
 
 Versioning
 ----------
 
 Releases are managed using github release feature.
 We use [Semantic Versioning](http://semver.org) for all
-the releases. Every change made to the code base will be referred to in the release notes (except for
-cleanups and refactorings).
+the releases. Every change made to the code base will be referred
+to in the release notes (except for cleanups and refactorings).
 
-Credits
--------
+Contact Info
+------------
 
--  `CONTRIBUTORS`_
+Feel free to contact me to discuss any issues, questions, or comments.
 
-Made with :heart: :coffee: and :pizza: by `luismayta`_.
+* `Email`_
+* `Twitter`_
+* `GitHub`_
+* `LinkedIn`_
+* `Website`_
+* `PGP`_
 
-.. |license| image:: https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square
-    :target: LICENSE
-    :alt: License
+|linkedin| |beacon| |made|
+
+Made with :coffee: and :pizza: by `luis mayta`_ and `equipindustry`_.
 
 .. Links
-.. _`CHANGELOG`: CHANGELOG.rst
-.. _`CONTRIBUTORS`: docs/source/AUTHORS.rst
-.. _`CONTRIBUTING`: docs/source/CONTRIBUTING.rst
-.. _`LICENSE`: LICENSE
+.. _`changelog`: CHANGELOG.rst
+.. _`contributors`: docs/source/AUTHORS.rst
+.. _`contributing`: docs/source/CONTRIBUTING.rst
+
+.. _`equipindustry`: https://github.com/equipindustry
+.. _`luis mayta`: https://github.com/luismayta
 
 
-.. _`luismayta`: https://github.com/luismayta
+.. _`Github`: https://github.com/luismayta
+.. _`Linkedin`: https://www.linkedin.com/in/luismayta
+.. _`Email`: slovacus@gmail.com
+    :target: mailto:slovacus@gmail.com
+.. _`Twitter`: https://twitter.com/slovacus
+.. _`Website`: http://luismayta.github.io
+.. _`PGP`: https://keybase.io/luismayta/pgp_keys.asc
 
-.. dependences
-.. _`Pyenv`: https://github.com/pyenv/pyenv
-.. _`Docker`: https://www.docker.com/
+.. |Build Status| image:: https://travis-ci.org/equipindustry/cookiecutter-next-redux-saga.svg
+    :target: https://travis-ci.org/equipindustry/cookiecutter-next-redux-saga
+.. |GitHub issues| image:: https://img.shields.io/github/issues/equipindustry/cookiecutter-next-redux-saga.svg
+    :target: https://github.com/equipindustry/cookiecutter-next-redux-saga/issues
+.. |GitHub license| image:: https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square
+    :target: LICENSE
+
+.. Team:
+
+.. |Luis Mayta| image:: https://github.com/luismayta.png?size=100
+    :target: https://github.com/luismayta
+
+.. Footer:
+
+.. |linkedin| image:: http://www.linkedin.com/img/webpromo/btn_liprofile_blue_80x15.png
+    :target: http://pe.linkedin.com/in/luismayta
+.. |beacon| image:: https://ga-beacon.appspot.com/UA-65019326-1/github.com/equipindustry/cookiecutter-next-redux-saga/readme
+    :target: https://github.com/equipindustry/cookiecutter-next-redux-saga
+.. |made| image:: https://img.shields.io/badge/Made%20with-Python-1f425f.svg
+    :target: http://www.python.org
+
+.. Dependences:
+
+.. _Cookiecutter: https://cookiecutter.readthedocs.io/en/latest
+.. _Pyenv: https://github.com/pyenv/pyenv
+.. _Docker: https://www.docker.com/
